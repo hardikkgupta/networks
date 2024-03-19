@@ -101,4 +101,12 @@ Cookies serve as the primary state management mechanism of the Web, enabling ser
 - **Personalization**: Websites use cookies to remember user preferences, such as language settings or personalized content recommendations.
 - **Tracking**: Cookies are also utilized for tracking user behavior, such as recording website visits and analyzing user interactions for analytics purposes.
 
-Cookies face some security issues, which I have described in these [slides](https://drive.google.com/file/d/1SCBp3K74fSXgJ2sjG-qBbjReMwXaPeke/view?usp=share_link) 
+### Cookie Security Issues
+
+Cookies, while essential for web functionality, can pose security risks if not handled properly. Below are some common security issues associated with cookies:
+
+- **Cross-Site Scripting (XSS)**: Malicious scripts injected into a web page can access cookies, leading to theft of sensitive information or session hijacking.
+- **Cross-Site Request Forgery (CSRF)**: Attackers can exploit cookies to perform unauthorized actions on behalf of a user, leading to account takeover or data manipulation.
+- **Session Fixation**: Attackers can force a user to use a specific session identifier, allowing them to hijack the user's session after authentication.
+
+For a detailed explanation of these security issues and recommended mitigation strategies, please refer to the accompanying [slides](https://drive.google.com/file/d/1SCBp3K74fSXgJ2sjG-qBbjReMwXaPeke/view?usp=share_link).
