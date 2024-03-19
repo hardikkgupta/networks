@@ -101,3 +101,4 @@ Cookies serve as the primary state management mechanism of the Web, enabling ser
 - **Personalization**: Websites use cookies to remember user preferences, such as language settings or personalized content recommendations.
 - **Tracking**: Cookies are also utilized for tracking user behavior, such as recording website visits and analyzing user interactions for analytics purposes.
 
+Cookies face some security issues, which I have described in these [slides](https://drive.google.com/file/d/1SCBp3K74fSXgJ2sjG-qBbjReMwXaPeke/view?usp=share_link) 
